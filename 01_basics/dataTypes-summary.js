@@ -2,7 +2,7 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-const score = 100
+/*const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = false
@@ -33,5 +33,26 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+*/
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+/////+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(primitive)=> copy of data, Heap (non-primitive)=> reference of memory
+ 
+
+let myName="Shashank"
+let anotherName= myName
+anotherName="Shekhar"
+console.log(anotherName)
+console.log(myName)
+let userOne={
+    email: "abc@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo= userOne
+userTwo.email="user@yahoo.com"
+console.log(userOne.email)
+console.log(userTwo.email)
