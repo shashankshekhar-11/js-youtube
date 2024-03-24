@@ -53,3 +53,27 @@ users[1].email
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//.......................................DESTRUCTURING..................................
+const course ={
+    courseName :"js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const{courseInstructor : instructor}= course
+
+//console.log(courseInstructor);
+console.log(instructor);
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+// [
+//     {},
+//     {},
+//     {}
+// ]
