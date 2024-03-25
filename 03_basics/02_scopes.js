@@ -6,10 +6,9 @@ let a=300
  }
 //global scope in node and console is different
 
- for (let i = 0; i < array.length; i++) {
-    const element = array[i];
+ 
     
- }
+
  //console.log(a);
  //console.log(b);
 // console.log(c);
